@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Black Ops One';
+    src: url(../font/BlackOpsOne-Regular.ttf);
+}
+
+body {
+    font-family: 'Black Ops One';
+}
+
+/* Cabeçalho */
+header{
+    background-color: #1A1A1A;   
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px; 
+    float: left;
+    width: 100%;
+}
+
+.logo{
+    float: left;
+    padding: 15px;
+}
+
+/* nav {
+    float: left;
+} */
+
+ul#menu li, a{
+    float: left;
+    display: inline;
+    font-size: 25px;
+    color: #BD9C00;
+    text-decoration: none;
+    padding: 20px 50px;
+    /* padding-left: 60px; */
+}
+
+/* Corpo */
+
+table tr td{
+    padding: 30px;
+    padding-right: 200px;
+}
+
+img {
+    border-radius: 15px;
+}
+
+/* Footer */
+footer{
+    background-color: #1A1A1A;
+    color: #BD9C00;
+    padding: 21px;
+}
